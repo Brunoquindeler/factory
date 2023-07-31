@@ -11,6 +11,5 @@ func main() {
 }
 
 func printDetails(g IGun) {
-	fmt.Printf("Gun: %s\n", g.getName())
-	fmt.Printf("Power: %d\n", g.getPower())
+	fmt.Printf("Gun: %s | Power: %d\n", g.getName(), g.getPower())
 }
